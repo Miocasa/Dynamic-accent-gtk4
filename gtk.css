@@ -1,0 +1,65 @@
+:root {
+    --tint-background: mix(#000000, var(--accent-color), 0.75);
+    --tint-bg-amount: 0.1; 
+
+    --window-bg-color: mix(#fafafa, var(--tint-background), var(--tint-bg-amount));
+
+    --view-bg-color: mix(#ffffff, var(--tint-background), var(--tint-bg-amount));
+
+    --headerbar-bg-color: mix(#ffffff, var(--tint-background), var(--tint-bg-amount));
+    --headerbar-backdrop-color: mix(#fafafa, var(--tint-background), var(--tint-bg-amount));
+
+    --sidebar-bg-color: mix(#ebebeb, var(--tint-background), var(--tint-bg-amount));
+    --sidebar-backdrop-color: mix(#f2f2f2, var(--tint-background), var(--tint-bg-amount));
+    --sidebar-border-color: mix(rgb(0 0 0 / 7%), var(--tint-background), var(--tint-bg-amount));
+
+    --secondary-sidebar-bg-color: mix(#f3f3f3, var(--tint-background), var(--tint-bg-amount));
+    --secondary-sidebar-backdrop-color: mix(#f6f6f6, var(--tint-background), var(--tint-bg-amount));
+    --secondary-sidebar-border-color: mix(rgb(0 0 0 / 7%), var(--tint-background), var(--tint-bg-amount));
+
+    --card-bg-color: mix(#ffffff, var(--tint-background), var(--tint-bg-amount));
+
+    --overview-bg-color: mix(#f3f3f5, var(--tint-background), var(--tint-bg-amount));
+    --thumbnail-bg-color: mix(#ffffff, var(--tint-background), var(--tint-bg-amount));
+
+    --active-toggle-bg-color: mix(#ffffff, var(--tint-background), var(--tint-bg-amount));
+
+    --dialog-bg-color: mix(#fafafa, var(--tint-background), var(--tint-bg-amount));
+
+    --popover-bg-color: mix(#ffffff, var(--tint-background), var(--tint-bg-amount));
+
+    --scrollbar-outline-color: mix(#ffffff, var(--tint-background), var(--tint-bg-amount));
+    --border-color: mix(
+        color-mix(in srgb, currentColor var(--border-opacity), transparent),
+        var(--tint-background), var(--tint-bg-amount));
+}
+
+@define-color tint-background mix(#000000, var(--accent-color), 0.75);
+@define-color tint-bg-amount 0.1;
+@define-color window-bg-color: mix(#fafafa, var(--tint-background), var(--tint-bg-amount));
+
+@define-color view-bg-color: mix(#ffffff, var(--tint-background), var(--tint-bg-amount));
+
+@define-color headerbar-bg-color: mix(#ffffff, var(--tint-background), var(--tint-bg-amount));
+@define-color headerbar-backdrop-color: mix(#fafafa, var(--tint-background), var(--tint-bg-amount));
+
+@define-color sidebar-bg-color: mix(#ebebeb, var(--tint-background), var(--tint-bg-amount));
+@define-color sidebar-backdrop-color: mix(#f2f2f2, var(--tint-background), var(--tint-bg-amount));
+@define-color sidebar-border-color: mix(rgb(0 0 0 / 7%), var(--tint-background), var(--tint-bg-amount));
+
+@define-color secondary-sidebar-bg-color: mix(#f3f3f3, var(--tint-background), var(--tint-bg-amount));
+@define-color secondary-sidebar-backdrop-color: mix(#f6f6f6, var(--tint-background), var(--tint-bg-amount));
+@define-color secondary-sidebar-border-color: mix(rgb(0 0 0 / 7%), var(--tint-background), var(--tint-bg-amount));
+
+@define-color card-bg-color: mix(#ffffff, var(--tint-background), var(--tint-bg-amount));
+
+@define-color overview-bg-color: mix(#f3f3f5, var(--tint-background), var(--tint-bg-amount));
+@define-color thumbnail-bg-color: mix(#ffffff, var(--tint-background), var(--tint-bg-amount));
+
+@define-color active-toggle-bg-color: mix(#ffffff, var(--tint-background), var(--tint-bg-amount));
+
+@define-color dialog-bg-color: mix(#fafafa, var(--tint-background), var(--tint-bg-amount));
+
+@define-color popover-bg-color: mix(#ffffff, var(--tint-background), var(--tint-bg-amount));
+
+@define-color scrollbar-outline-color: mix(#ffffff, var(--tint-background), var(--tint-bg-amount));
